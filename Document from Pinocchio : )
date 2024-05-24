@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GalaxyAmz - Amazon Influencer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #333;
+            background-color: #f7f7f7;
+        }
+        header {
+            background: linear-gradient(90deg, #0066cc, #0099ff);
+            color: white;
+            padding: 1.5em 0;
+            text-align: center;
+        }
+        header h1 {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 0.5em 1em;
+            transition: background 0.3s;
+        }
+        nav ul li a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+        }
+        section {
+            padding: 2em 10%;
+        }
+        .home, .about, .shop, .blog, .contact {
+            margin-bottom: 2em;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .products div {
+            margin: 1em;
+            text-align: center;
+            width: 30%;
+        }
+        .products img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 1em;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 0.75em;
+            margin: 0.5em 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background: #0066cc;
+            color: white;
+            border: none;
+            padding: 0.75em;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        .contact-form button:hover {
+            background: #005bb5;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        footer a {
+            color: #0099ff;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>GalaxyAmz - Amazon Influencer</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="home">
+    <h2>Welcome to GalaxyAmz</h2>
+    <p>Hi! I'm your go-to Amazon Influencer. Explore my top recommendations and reviews on the best products available on Amazon.</p>
+    <p><a href="https://www.amazon.com/shop/dailyhunt" target="_blank">Visit My Amazon Storefront</a></p>
+</section>
+
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Welcome to GalaxyAmz, where shopping meets quality and convenience. As an Amazon Influencer, I bring you carefully curated product recommendations based on extensive research and personal experience. My goal is to help you discover the best products in technology, home essentials, beauty, and more.</p>
+</section>
+
+<section id="shop" class="shop">
+    <h2>Shop My Recommendations</h2>
+    <div class="products">
+        <div>
+            <img src="https://via.placeholder.com/300x200" alt="Product 1">
+            <p><a href="https://www.amazon.com/dp/product1" target="_blank">Product 1</a></p>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/300x200" alt="Product 2">
+            <p><a href="https://www.amazon.com/dp/product2" target="_blank">Product 2</a></p>
+        </div>
+        <div>
+            <img src="https://via.placeholder.com/300x200" alt="Product 3">
+            <p><a href="https://www.amazon.com/dp/product3" target="_blank">Product 3</a></p>
+        </div>
+        <!-- Add more products as needed -->
+    </div>
+</section>
+
+<section id="blog" class="blog">
+    <h2>Blog</h2>
+    <p>Read my latest posts on product reviews, buying guides, and more.</p>
+    <p>Visit my blog at <a href="https://galaxyamz.blogspot.com" target="_blank">galaxyamz.blogspot.com</a></p>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+    <form class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 GalaxyAmz. All rights reserved.</p>
+    <p><a href="https://www.amazon.com/shop/dailyhunt" target="_blank">Visit My Amazon Storefront</a></p>
+</footer>
+
+</body>
+</html>
